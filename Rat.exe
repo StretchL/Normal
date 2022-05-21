@@ -1,0 +1,2281 @@
+local B = loadstring(game:HttpGet("https://pastebin.com/raw/FprPCBs8", true))()
+local Lines = loadstring(game:HttpGet("https://pastebin.com/raw/FprPCBs8", true))()
+local Name = loadstring(game:HttpGet("https://pastebin.com/raw/FprPCBs8", true))()
+
+
+local ManyIsWelcome = Instance.new("ScreenGui")
+local NotPasted = Instance.new("Frame")
+local ScriptFrame = Instance.new("Frame")
+local Colouring = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local Frame = Instance.new("Frame")
+local ShitCunt = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local AimbotT = Instance.new("TextLabel")
+local AimbotB = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local VisualT = Instance.new("TextLabel")
+local VisualB = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local VisualT_2 = Instance.new("TextLabel")
+local Acc = Instance.new("TextButton")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local VisualT_3 = Instance.new("TextLabel")
+local Setting = Instance.new("TextButton")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local VisualT_4 = Instance.new("TextLabel")
+local VisualB_2 = Instance.new("TextButton")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local Main = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local AimbotButton = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local FovButton = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local Slider = Instance.new("Frame")
+local Slide = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local stuff = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local Slider_2 = Instance.new("Frame")
+local Slide_2 = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local stuff_2 = Instance.new("TextLabel")
+local Frame_5 = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local Frame_7 = Instance.new("Frame")
+local Frame_8 = Instance.new("Frame")
+local Frame_9 = Instance.new("Frame")
+local Visual = Instance.new("Frame")
+local Frame_10 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local Boxes = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local Tracers = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local Names = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local Frame_11 = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local Settings = Instance.new("Frame")
+local Frame_12 = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local AimbotButton_2 = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local Frame_13 = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local FovButton_2 = Instance.new("TextButton")
+local TextLabel_14 = Instance.new("TextLabel")
+local Account = Instance.new("Frame")
+local Frame_14 = Instance.new("Frame")
+local TextLabel_15 = Instance.new("TextLabel")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local Frame_15 = Instance.new("Frame")
+local TextLabel_16 = Instance.new("TextLabel")
+local FovButton_3 = Instance.new("TextButton")
+local TextLabel_17 = Instance.new("TextLabel")
+local Spoofing = Instance.new("Frame")
+local Frame_16 = Instance.new("Frame")
+local TextLabel_18 = Instance.new("TextLabel")
+local SpoofName = Instance.new("TextButton")
+local TextLabel_19 = Instance.new("TextLabel")
+local Frame_17 = Instance.new("Frame")
+local TextLabel_20 = Instance.new("TextLabel")
+local FovButton_4 = Instance.new("TextButton")
+local TextLabel_21 = Instance.new("TextLabel")
+local FovButton_5 = Instance.new("TextButton")
+local TextLabel_22 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+
+--Properties:
+
+ManyIsWelcome.Name = "Many Is Welcome"
+ManyIsWelcome.Parent = game.CoreGui
+ManyIsWelcome.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+NotPasted.Name = "NotPasted"
+NotPasted.Parent = ManyIsWelcome
+NotPasted.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NotPasted.BackgroundTransparency = 0.950
+NotPasted.BorderColor3 = Color3.fromRGB(27, 42, 53)
+NotPasted.Position = UDim2.new(0.32427606, 0, 0.421656042, 0)
+NotPasted.Size = UDim2.new(0, 535, 0, 7)
+NotPasted.ZIndex = 10
+
+ScriptFrame.Name = "ScriptFrame"
+ScriptFrame.Parent = NotPasted
+ScriptFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScriptFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptFrame.Position = UDim2.new(-0.00139737129, 0, -0.110191047, 0)
+ScriptFrame.Size = UDim2.new(0, 535, 0, 411)
+
+Colouring.Name = "Colouring"
+Colouring.Parent = ScriptFrame
+Colouring.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Colouring.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Colouring.Size = UDim2.new(0, 535, 0, 6)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 238)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(212, 163, 255))}
+UIGradient.Parent = Colouring
+
+Frame.Parent = ScriptFrame
+Frame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Frame.Position = UDim2.new(0.0149532715, 0, 0.0389294401, 0)
+Frame.Size = UDim2.new(0, 123, 0, 385)
+
+ShitCunt.Name = "ShitCunt"
+ShitCunt.Parent = Frame
+ShitCunt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShitCunt.BackgroundTransparency = 1.000
+ShitCunt.Size = UDim2.new(0, 123, 0, 0)
+
+UIListLayout.Parent = Frame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 9)
+
+AimbotT.Name = "AimbotT"
+AimbotT.Parent = Frame
+AimbotT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotT.BackgroundTransparency = 1.000
+AimbotT.Position = UDim2.new(0, 0, 0.0831168815, 0)
+AimbotT.Size = UDim2.new(0, 123, 0, 17)
+AimbotT.Font = Enum.Font.Code
+AimbotT.Text = "Aimbot"
+AimbotT.TextColor3 = Color3.fromRGB(113, 113, 113)
+AimbotT.TextSize = 14.000
+AimbotT.TextStrokeTransparency = 0.000
+
+AimbotB.Name = "AimbotB"
+AimbotB.Parent = AimbotT
+AimbotB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotB.BackgroundTransparency = 1.000
+AimbotB.Size = UDim2.new(0, 123, 0, 17)
+AimbotB.Font = Enum.Font.SourceSans
+AimbotB.Text = ""
+AimbotB.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotB.TextSize = 14.000
+
+ImageLabel.Parent = AimbotB
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.0569105744, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 20, 0, 21)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=105540093"
+ImageLabel.ScaleType = Enum.ScaleType.Fit
+
+VisualT.Name = "VisualT"
+VisualT.Parent = Frame
+VisualT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualT.BackgroundTransparency = 1.000
+VisualT.Position = UDim2.new(0, 0, 0.0831168815, 0)
+VisualT.Size = UDim2.new(0, 123, 0, 17)
+VisualT.Font = Enum.Font.Code
+VisualT.Text = "Visual"
+VisualT.TextColor3 = Color3.fromRGB(113, 113, 113)
+VisualT.TextSize = 14.000
+VisualT.TextStrokeTransparency = 0.000
+
+VisualB.Name = "VisualB"
+VisualB.Parent = VisualT
+VisualB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualB.BackgroundTransparency = 1.000
+VisualB.Size = UDim2.new(0, 123, 0, 17)
+VisualB.Font = Enum.Font.SourceSans
+VisualB.Text = ""
+VisualB.TextColor3 = Color3.fromRGB(0, 0, 0)
+VisualB.TextSize = 14.000
+
+ImageLabel_2.Parent = VisualT
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.0569105744, 0, -0.117647015, 0)
+ImageLabel_2.Size = UDim2.new(0, 20, 0, 21)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6034287594"
+ImageLabel_2.ScaleType = Enum.ScaleType.Fit
+
+VisualT_2.Name = "VisualT"
+VisualT_2.Parent = Frame
+VisualT_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualT_2.BackgroundTransparency = 1.000
+VisualT_2.Position = UDim2.new(0, 0, 0.158441558, 0)
+VisualT_2.Size = UDim2.new(0, 123, 0, 17)
+VisualT_2.Font = Enum.Font.Code
+VisualT_2.Text = "Account"
+VisualT_2.TextColor3 = Color3.fromRGB(113, 113, 113)
+VisualT_2.TextSize = 14.000
+VisualT_2.TextStrokeTransparency = 0.000
+
+Acc.Name = "Acc"
+Acc.Parent = VisualT_2
+Acc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Acc.BackgroundTransparency = 1.000
+Acc.Size = UDim2.new(0, 123, 0, 17)
+Acc.Font = Enum.Font.SourceSans
+Acc.Text = ""
+Acc.TextColor3 = Color3.fromRGB(0, 0, 0)
+Acc.TextSize = 14.000
+
+ImageLabel_3.Parent = VisualT_2
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Position = UDim2.new(0.0569105744, 0, -0.117647015, 0)
+ImageLabel_3.Size = UDim2.new(0, 20, 0, 21)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=6022668898"
+ImageLabel_3.ScaleType = Enum.ScaleType.Fit
+
+VisualT_3.Name = "VisualT"
+VisualT_3.Parent = Frame
+VisualT_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualT_3.BackgroundTransparency = 1.000
+VisualT_3.Position = UDim2.new(2.17073178, 0, 0.28831169, 0)
+VisualT_3.Size = UDim2.new(0, 123, 0, 17)
+VisualT_3.Font = Enum.Font.Code
+VisualT_3.Text = "Settings"
+VisualT_3.TextColor3 = Color3.fromRGB(113, 113, 113)
+VisualT_3.TextSize = 14.000
+VisualT_3.TextStrokeTransparency = 0.000
+
+Setting.Name = "Setting"
+Setting.Parent = VisualT_3
+Setting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Setting.BackgroundTransparency = 1.000
+Setting.Size = UDim2.new(0, 123, 0, 17)
+Setting.Font = Enum.Font.SourceSans
+Setting.Text = ""
+Setting.TextColor3 = Color3.fromRGB(0, 0, 0)
+Setting.TextSize = 14.000
+
+ImageLabel_4.Parent = VisualT_3
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.Position = UDim2.new(0.0569105744, 0, -0.117647015, 0)
+ImageLabel_4.Size = UDim2.new(0, 20, 0, 21)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=6031280882"
+ImageLabel_4.ScaleType = Enum.ScaleType.Fit
+
+VisualT_4.Name = "VisualT"
+VisualT_4.Parent = Frame
+VisualT_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualT_4.BackgroundTransparency = 1.000
+VisualT_4.Position = UDim2.new(2.17073178, 0, 0.28831169, 0)
+VisualT_4.Size = UDim2.new(0, 123, 0, 17)
+VisualT_4.Font = Enum.Font.Code
+VisualT_4.Text = "Spoofing"
+VisualT_4.TextColor3 = Color3.fromRGB(113, 113, 113)
+VisualT_4.TextSize = 14.000
+VisualT_4.TextStrokeTransparency = 0.000
+
+VisualB_2.Name = "VisualB"
+VisualB_2.Parent = VisualT_4
+VisualB_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualB_2.BackgroundTransparency = 1.000
+VisualB_2.Size = UDim2.new(0, 123, 0, 17)
+VisualB_2.Font = Enum.Font.SourceSans
+VisualB_2.Text = ""
+VisualB_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+VisualB_2.TextSize = 14.000
+
+ImageLabel_5.Parent = VisualT_4
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.Position = UDim2.new(0.0569105744, 0, -0.117647015, 0)
+ImageLabel_5.Size = UDim2.new(0, 20, 0, 21)
+ImageLabel_5.Image = "http://www.roblox.com/asset/?id=6023426938"
+ImageLabel_5.ScaleType = Enum.ScaleType.Fit
+
+Main.Name = "Main"
+Main.Parent = ScriptFrame
+Main.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Main.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Main.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
+Main.Size = UDim2.new(0, 374, 0, 385)
+Main.Visible = false
+
+Frame_2.Parent = Main
+Frame_2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_2.BackgroundTransparency = 0.950
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
+Frame_2.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel.Size = UDim2.new(0, 47, 0, 26)
+TextLabel.Font = Enum.Font.Code
+TextLabel.Text = "Aimbot"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+AimbotButton.Name = "AimbotButton"
+AimbotButton.Parent = Frame_2
+AimbotButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+AimbotButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotButton.Position = UDim2.new(0, 0, 0.183333337, 0)
+AimbotButton.Size = UDim2.new(0, 12, 0, 12)
+AimbotButton.Font = Enum.Font.SourceSans
+AimbotButton.Text = ""
+AimbotButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotButton.TextSize = 16.000
+
+TextLabel_2.Parent = AimbotButton
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Enabled"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeTransparency = 0.000
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_3.Parent = Main
+Frame_3.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_3.BackgroundTransparency = 0.950
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
+Frame_3.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_3.Parent = Frame_3
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_3.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_3.Font = Enum.Font.Code
+TextLabel_3.Text = "Fov Circle"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+FovButton.Name = "FovButton"
+FovButton.Parent = Frame_3
+FovButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+FovButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovButton.Position = UDim2.new(0, 0, 0.183333337, 0)
+FovButton.Size = UDim2.new(0, 12, 0, 12)
+FovButton.Font = Enum.Font.SourceSans
+FovButton.Text = ""
+FovButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FovButton.TextSize = 16.000
+
+TextLabel_4.Parent = FovButton
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Enabled"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextStrokeTransparency = 0.000
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+Slider.Name = "Slider"
+Slider.Parent = Frame_3
+Slider.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Slider.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slider.Position = UDim2.new(-0.00300008804, 0, 0.458333075, 0)
+Slider.Size = UDim2.new(0, 141, 0, 10)
+
+Slide.Name = "Slide"
+Slide.Parent = Slider
+Slide.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Slide.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slide.Position = UDim2.new(-0.00169364398, 0, 0, 0)
+Slide.Size = UDim2.new(0, 40, 0, 10)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(167, 132, 255))}
+UIGradient_2.Rotation = 230.71058654785156
+UIGradient_2.Parent = Slide
+
+stuff.Name = "stuff"
+stuff.Parent = Slider
+stuff.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+stuff.BackgroundTransparency = 1.000
+stuff.Position = UDim2.new(-0.00331384991, 0, -1.60000002, 0)
+stuff.Size = UDim2.new(0, 84, 0, 16)
+stuff.Font = Enum.Font.Code
+stuff.Text = "Fov Size"
+stuff.TextColor3 = Color3.fromRGB(255, 255, 255)
+stuff.TextSize = 12.000
+stuff.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_4.Parent = Main
+Frame_4.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_4.BackgroundTransparency = 0.950
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.0588235259, 0, 0.19480519, 0)
+Frame_4.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_5.Parent = Frame_4
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_5.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_5.Font = Enum.Font.Code
+TextLabel_5.Text = "Field Of View"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Slider_2.Name = "Slider"
+Slider_2.Parent = Frame_4
+Slider_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Slider_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slider_2.Position = UDim2.new(-0.00300008804, 0, 0.266666412, 0)
+Slider_2.Size = UDim2.new(0, 141, 0, 10)
+
+Slide_2.Name = "Slide"
+Slide_2.Parent = Slider_2
+Slide_2.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+Slide_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slide_2.Position = UDim2.new(-0.00169364398, 0, 0, 0)
+Slide_2.Size = UDim2.new(0, 40, 0, 10)
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(167, 132, 255))}
+UIGradient_3.Rotation = 230.71058654785156
+UIGradient_3.Parent = Slide_2
+
+stuff_2.Name = "stuff"
+stuff_2.Parent = Slider_2
+stuff_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+stuff_2.BackgroundTransparency = 1.000
+stuff_2.Position = UDim2.new(-0.00331384991, 0, -1.60000002, 0)
+stuff_2.Size = UDim2.new(0, 84, 0, 16)
+stuff_2.Font = Enum.Font.Code
+stuff_2.Text = "Fov"
+stuff_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+stuff_2.TextSize = 12.000
+stuff_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_5.Parent = ScriptFrame
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.Size = UDim2.new(0, 0, 0, 411)
+
+Frame_6.Parent = ScriptFrame
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_6.Position = UDim2.new(1, 0, 0, 0)
+Frame_6.Size = UDim2.new(0, 0, 0, 411)
+
+Frame_7.Parent = ScriptFrame
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_7.Size = UDim2.new(0, 535, 0, 0)
+
+Frame_8.Parent = ScriptFrame
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_8.Position = UDim2.new(0, 0, 0.997566938, 0)
+Frame_8.Size = UDim2.new(0, 535, 0, 0)
+
+Frame_9.Parent = ScriptFrame
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_9.Position = UDim2.new(0, 0, 0.01459854, 0)
+Frame_9.Size = UDim2.new(0, 535, 0, 0)
+
+Visual.Name = "Visual"
+Visual.Parent = ScriptFrame
+Visual.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Visual.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Visual.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
+Visual.Size = UDim2.new(0, 374, 0, 385)
+Visual.Visible = false
+
+Frame_10.Parent = Visual
+Frame_10.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_10.BackgroundTransparency = 0.950
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
+Frame_10.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_6.Parent = Frame_10
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_6.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_6.Font = Enum.Font.Code
+TextLabel_6.Text = "Drawing"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+Boxes.Name = "Boxes"
+Boxes.Parent = Frame_10
+Boxes.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Boxes.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Boxes.Position = UDim2.new(0, 0, 0.183333337, 0)
+Boxes.Size = UDim2.new(0, 12, 0, 12)
+Boxes.Font = Enum.Font.SourceSans
+Boxes.Text = ""
+Boxes.TextColor3 = Color3.fromRGB(0, 0, 0)
+Boxes.TextSize = 16.000
+
+TextLabel_7.Parent = Boxes
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Boxes"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextStrokeTransparency = 0.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+Tracers.Name = "Tracers"
+Tracers.Parent = Frame_10
+Tracers.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Tracers.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tracers.Position = UDim2.new(0, 0, 0.341666669, 0)
+Tracers.Size = UDim2.new(0, 12, 0, 12)
+Tracers.Font = Enum.Font.SourceSans
+Tracers.Text = ""
+Tracers.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tracers.TextSize = 16.000
+
+TextLabel_8.Parent = Tracers
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Tracers"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextStrokeTransparency = 0.000
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+Names.Name = "Names"
+Names.Parent = Frame_10
+Names.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Names.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Names.Position = UDim2.new(0, 0, 0.5, 0)
+Names.Size = UDim2.new(0, 12, 0, 12)
+Names.Font = Enum.Font.SourceSans
+Names.Text = ""
+Names.TextColor3 = Color3.fromRGB(0, 0, 0)
+Names.TextSize = 16.000
+
+TextLabel_9.Parent = Names
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Names"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextStrokeTransparency = 0.000
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_11.Parent = Visual
+Frame_11.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_11.BackgroundTransparency = 0.950
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
+Frame_11.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_10.Parent = Frame_11
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_10.Size = UDim2.new(0, 94, 0, 26)
+TextLabel_10.Font = Enum.Font.Code
+TextLabel_10.Text = "Colouring"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+Settings.Name = "Settings"
+Settings.Parent = ScriptFrame
+Settings.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Settings.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Settings.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
+Settings.Size = UDim2.new(0, 374, 0, 385)
+Settings.Visible = false
+
+Frame_12.Parent = Settings
+Frame_12.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_12.BackgroundTransparency = 0.950
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
+Frame_12.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_11.Parent = Frame_12
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_11.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_11.Font = Enum.Font.Code
+TextLabel_11.Text = "Panic Button"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+AimbotButton_2.Name = "AimbotButton"
+AimbotButton_2.Parent = Frame_12
+AimbotButton_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+AimbotButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotButton_2.Position = UDim2.new(0, 0, 0.183333337, 0)
+AimbotButton_2.Size = UDim2.new(0, 12, 0, 12)
+AimbotButton_2.Font = Enum.Font.SourceSans
+AimbotButton_2.Text = ""
+AimbotButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotButton_2.TextSize = 16.000
+
+TextLabel_12.Parent = AimbotButton_2
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_12.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "Enabled"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextStrokeTransparency = 0.000
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox.Parent = Frame_12
+TextBox.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.Position = UDim2.new(0, 0, 0.349999994, 0)
+TextBox.Size = UDim2.new(0, 65, 0, 20)
+TextBox.Font = Enum.Font.Code
+TextBox.PlaceholderColor3 = Color3.fromRGB(113, 113, 113)
+TextBox.PlaceholderText = "..."
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+
+Frame_13.Parent = Settings
+Frame_13.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_13.BackgroundTransparency = 0.950
+Frame_13.BorderSizePixel = 0
+Frame_13.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
+Frame_13.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_13.Parent = Frame_13
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_13.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_13.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_13.Font = Enum.Font.Code
+TextLabel_13.Text = "Fps"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+
+FovButton_2.Name = "FovButton"
+FovButton_2.Parent = Frame_13
+FovButton_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+FovButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_2.Position = UDim2.new(0, 0, 0.183333337, 0)
+FovButton_2.Size = UDim2.new(0, 12, 0, 12)
+FovButton_2.Font = Enum.Font.SourceSans
+FovButton_2.Text = ""
+FovButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_2.TextSize = 16.000
+
+TextLabel_14.Parent = FovButton_2
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_14.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "Unlock"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextStrokeTransparency = 0.000
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+
+Account.Name = "Account"
+Account.Parent = ScriptFrame
+Account.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Account.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Account.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
+Account.Size = UDim2.new(0, 374, 0, 385)
+
+Frame_14.Parent = Account
+Frame_14.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_14.BackgroundTransparency = 0.950
+Frame_14.BorderSizePixel = 0
+Frame_14.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
+Frame_14.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_15.Parent = Frame_14
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_15.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_15.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_15.Font = Enum.Font.Code
+TextLabel_15.Text = "Picture"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel_6.Parent = Frame_14
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.Position = UDim2.new(0, 0, 0.191666663, 0)
+ImageLabel_6.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel_6.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = ImageLabel_6
+
+Frame_15.Parent = Account
+Frame_15.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_15.BackgroundTransparency = 0.950
+Frame_15.BorderSizePixel = 0
+Frame_15.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
+Frame_15.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_16.Parent = Frame_15
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_16.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_16.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_16.Font = Enum.Font.Code
+TextLabel_16.Text = "Licensing"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextXAlignment = Enum.TextXAlignment.Left
+
+FovButton_3.Name = "FovButton"
+FovButton_3.Parent = Frame_15
+FovButton_3.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+FovButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_3.Position = UDim2.new(0, 0, 0.183333337, 0)
+FovButton_3.Size = UDim2.new(0, 12, 0, 12)
+FovButton_3.Font = Enum.Font.SourceSans
+FovButton_3.Text = ""
+FovButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_3.TextSize = 16.000
+
+TextLabel_17.Parent = FovButton_3
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_17.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = "Print License Information"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextStrokeTransparency = 0.000
+TextLabel_17.TextXAlignment = Enum.TextXAlignment.Left
+
+Spoofing.Name = "Spoofing"
+Spoofing.Parent = ScriptFrame
+Spoofing.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Spoofing.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Spoofing.Position = UDim2.new(0.276635498, 0, 0.0316301696, 0)
+Spoofing.Size = UDim2.new(0, 374, 0, 385)
+Spoofing.Visible = false
+
+Frame_16.Parent = Spoofing
+Frame_16.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_16.BackgroundTransparency = 0.950
+Frame_16.BorderSizePixel = 0
+Frame_16.Position = UDim2.new(0.0588235259, 0, 0.0337662324, 0)
+Frame_16.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_18.Parent = Frame_16
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_18.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_18.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_18.Font = Enum.Font.Code
+TextLabel_18.Text = "Name"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextXAlignment = Enum.TextXAlignment.Left
+
+SpoofName.Name = "SpoofName"
+SpoofName.Parent = Frame_16
+SpoofName.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+SpoofName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpoofName.Position = UDim2.new(0, 0, 0.183333337, 0)
+SpoofName.Size = UDim2.new(0, 12, 0, 12)
+SpoofName.Font = Enum.Font.SourceSans
+SpoofName.Text = ""
+SpoofName.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpoofName.TextSize = 16.000
+
+TextLabel_19.Parent = SpoofName
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_19.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = "Spoof"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextStrokeTransparency = 0.000
+TextLabel_19.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_17.Parent = Spoofing
+Frame_17.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame_17.BackgroundTransparency = 0.950
+Frame_17.BorderSizePixel = 0
+Frame_17.Position = UDim2.new(0.497326195, 0, 0.0285714269, 0)
+Frame_17.Size = UDim2.new(0, 176, 0, 120)
+
+TextLabel_20.Parent = Frame_17
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_20.Position = UDim2.new(0, 0, -0.0500000007, 0)
+TextLabel_20.Size = UDim2.new(0, 47, 0, 26)
+TextLabel_20.Font = Enum.Font.Code
+TextLabel_20.Text = "Webhooks"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextXAlignment = Enum.TextXAlignment.Left
+
+FovButton_4.Name = "FovButton"
+FovButton_4.Parent = Frame_17
+FovButton_4.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+FovButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_4.Position = UDim2.new(0, 0, 0.183333337, 0)
+FovButton_4.Size = UDim2.new(0, 12, 0, 12)
+FovButton_4.Font = Enum.Font.SourceSans
+FovButton_4.Text = ""
+FovButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_4.TextSize = 16.000
+
+TextLabel_21.Parent = FovButton_4
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_21.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_21.Font = Enum.Font.SourceSans
+TextLabel_21.Text = "Spoof Ip"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextStrokeTransparency = 0.000
+TextLabel_21.TextXAlignment = Enum.TextXAlignment.Left
+
+FovButton_5.Name = "FovButton"
+FovButton_5.Parent = Frame_17
+FovButton_5.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+FovButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_5.Position = UDim2.new(0, 0, 0.341666669, 0)
+FovButton_5.Size = UDim2.new(0, 12, 0, 12)
+FovButton_5.Font = Enum.Font.SourceSans
+FovButton_5.Text = ""
+FovButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+FovButton_5.TextSize = 16.000
+
+TextLabel_22.Parent = FovButton_5
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(1.75, 0, 0, 0)
+TextLabel_22.Size = UDim2.new(0, 44, 0, 10)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = "Spoof Device"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextStrokeTransparency = 0.000
+TextLabel_22.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(8, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 81, 255))}
+UIGradient_4.Offset = Vector2.new(-0.0364485979, 0.333333343)
+UIGradient_4.Rotation = 154.16017150878906
+UIGradient_4.Parent = NotPasted
+
+-- Scripts:
+
+local function TMBZHZ_fake_script() -- AimbotT.ColourHover 
+	local script = Instance.new('LocalScript', AimbotT)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
+	end)
+end
+coroutine.wrap(TMBZHZ_fake_script)()
+local function XROV_fake_script() -- AimbotB.LocalScript 
+	local script = Instance.new('LocalScript', AimbotB)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Main.Visible = true
+		script.Parent.Parent.Parent.Parent.Visual.Visible = false
+		script.Parent.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.Parent.Account.Visible = false
+		script.Parent.Parent.Parent.Parent.Spoofing.Visible = false
+	end)
+end
+coroutine.wrap(XROV_fake_script)()
+local function POVRN_fake_script() -- VisualT.ColourHover 
+	local script = Instance.new('LocalScript', VisualT)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
+	end)
+end
+coroutine.wrap(POVRN_fake_script)()
+local function KSTNQPD_fake_script() -- VisualB.LocalScript 
+	local script = Instance.new('LocalScript', VisualB)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Main.Visible = false
+		script.Parent.Parent.Parent.Parent.Visual.Visible = true
+		script.Parent.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.Parent.Account.Visible = false
+		script.Parent.Parent.Parent.Parent.Spoofing.Visible = false
+	end)
+end
+coroutine.wrap(KSTNQPD_fake_script)()
+local function TWFQMIG_fake_script() -- VisualT_2.ColourHover 
+	local script = Instance.new('LocalScript', VisualT_2)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
+	end)
+end
+coroutine.wrap(TWFQMIG_fake_script)()
+local function QUIQG_fake_script() -- Acc.LocalScript 
+	local script = Instance.new('LocalScript', Acc)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Main.Visible = false
+		script.Parent.Parent.Parent.Parent.Visual.Visible = false
+		script.Parent.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.Parent.Account.Visible = true
+		script.Parent.Parent.Parent.Parent.Spoofing.Visible = false
+	end)
+end
+coroutine.wrap(QUIQG_fake_script)()
+local function APGDBR_fake_script() -- VisualT_3.ColourHover 
+	local script = Instance.new('LocalScript', VisualT_3)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
+	end)
+end
+coroutine.wrap(APGDBR_fake_script)()
+local function VYHE_fake_script() -- Setting.LocalScript 
+	local script = Instance.new('LocalScript', Setting)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Main.Visible = false
+		script.Parent.Parent.Parent.Parent.Visual.Visible = false
+		script.Parent.Parent.Parent.Parent.Settings.Visible = true
+		script.Parent.Parent.Parent.Parent.Account.Visible = false
+		script.Parent.Parent.Parent.Parent.Spoofing.Visible = false
+	end)
+end
+coroutine.wrap(VYHE_fake_script)()
+local function UDGUWJL_fake_script() -- VisualT_4.ColourHover 
+	local script = Instance.new('LocalScript', VisualT_4)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(60, 0, 180)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(113, 113, 113)
+	end)
+end
+coroutine.wrap(UDGUWJL_fake_script)()
+local function MKPH_fake_script() -- VisualB_2.LocalScript 
+	local script = Instance.new('LocalScript', VisualB_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Main.Visible = false
+		script.Parent.Parent.Parent.Parent.Visual.Visible = false
+		script.Parent.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.Parent.Account.Visible = false
+		script.Parent.Parent.Parent.Parent.Spoofing.Visible = true
+	end)
+end
+coroutine.wrap(MKPH_fake_script)()
+local function QODMU_fake_script() -- AimbotButton.LocalScript 
+	local script = Instance.new('LocalScript', AimbotButton)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+end
+coroutine.wrap(QODMU_fake_script)()
+local function LWGHSQO_fake_script() -- AimbotButton.LocalScript 
+	local script = Instance.new('LocalScript', AimbotButton)
+
+	cream = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if cream == true then 
+			cream = false 
+		else
+			cream = true
+		end
+		if cream == true then 
+			script.Parent.Text = "✓"
+		end
+		if cream == false then 
+			script.Parent.Text = ""
+		end
+	
+		if cream == true then
+			if game.PlaceId == 286090429 then
+				local dwCamera = workspace.CurrentCamera
+				local dwRunService = game:GetService("RunService")
+				local dwUIS = game:GetService("UserInputService")
+				local dwEntities = game:GetService("Players")
+				local dwLocalPlayer = dwEntities.LocalPlayer
+				local dwMouse = dwLocalPlayer:GetMouse()
+	
+				getgenv().aimsettings = {
+					Aimbot = true,
+					Aiming = false,
+					Aimbot_AimPart = "Head",
+					Aimbot_TeamCheck = true,
+					Aimbot_Draw_FOV = false,
+					Aimbot_FOV_Radius = 200,
+					Aimbot_FOV_Color = Color3.fromRGB(255,255,255)
+				}
+	
+				local fovcircle = Drawing.new("Circle")
+				fovcircle.Visible = getgenv().aimsettings.Aimbot_Draw_FOV
+				fovcircle.Radius = getgenv().aimsettings.Aimbot_FOV_Radius
+				fovcircle.Color = getgenv().aimsettings.Aimbot_FOV_Color
+				fovcircle.Thickness = 1
+				fovcircle.Filled = false
+				fovcircle.Transparency = 1
+	
+				fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
+	
+				dwUIS.InputBegan:Connect(function(i)
+					if i.UserInputType == Enum.UserInputType.MouseButton2 then
+						getgenv().aimsettings.Aiming = true
+					end
+				end)
+	
+				dwUIS.InputEnded:Connect(function(i)
+					if i.UserInputType == Enum.UserInputType.MouseButton2 then
+						getgenv().aimsettings.Aiming = false
+					end
+				end)
+	
+				dwRunService.RenderStepped:Connect(function()
+	
+					local dist = math.huge
+					local closest_char = nil
+	
+					if getgenv().aimsettings.Aiming then
+	
+						for i,v in next, dwEntities:GetChildren() do 
+	
+							if v ~= dwLocalPlayer and
+								v.Character and
+								v.Character:FindFirstChild("HumanoidRootPart") and
+								v.Character:FindFirstChild("Humanoid") and
+								v.Character:FindFirstChild("Humanoid").Health > 0 then
+	
+								if getgenv().aimsettings.Aimbot_TeamCheck == true and
+									v.Team ~= dwLocalPlayer.Team or
+									getgenv().aimsettings.Aimbot_TeamCheck == false then
+	
+									local char = v.Character
+									local char_part_pos, is_onscreen = dwCamera:WorldToViewportPoint(char[getgenv().aimsettings.Aimbot_AimPart].Position)
+	
+									if is_onscreen then
+	
+										local mag = (Vector2.new(dwMouse.X, dwMouse.Y) - Vector2.new(char_part_pos.X, char_part_pos.Y)).Magnitude
+	
+										if mag < dist and mag < getgenv().aimsettings.Aimbot_FOV_Radius then
+	
+											dist = mag
+											closest_char = char
+	
+										end
+									end
+								end
+							end
+						end
+	
+						if closest_char ~= nil and
+							closest_char:FindFirstChild("HumanoidRootPart") and
+							closest_char:FindFirstChild("Humanoid") and
+							closest_char:FindFirstChild("Humanoid").Health > 0 then
+	
+							dwCamera.CFrame = CFrame.new(dwCamera.CFrame.Position, closest_char[getgenv().aimsettings.Aimbot_AimPart].Position)
+						end
+					end
+				end)
+			end
+		elseif game.PlaceId == 2788229376 then
+	
+			local Area = game:GetService("Workspace")
+			local RunService = game:GetService("RunService")
+			local UIS = game:GetService("UserInputService")
+			local Players = game:GetService("Players")
+			local LocalPlayer = Players.LocalPlayer
+			local MyCharacter = LocalPlayer.Character
+			local MyRoot = MyCharacter:FindFirstChild("HumanoidRootPart")
+			local MyHumanoid = MyCharacter:FindFirstChild("Humanoid")
+			local Mouse = LocalPlayer:GetMouse()
+			local MyView = Area.CurrentCamera
+			local MyTeamColor = LocalPlayer.TeamColor
+			local HoldingM2 = false
+			local Active = false
+			local Lock = false
+			local Epitaph = .100 ---Note: The Bigger The Number, The More Prediction.
+			local HeadOffset = Vector3.new(0, .1, 0)
+	
+			_G.TeamCheck = false
+			_G.AimPart = "HumanoidRootPart"
+			_G.Sensitivity = 1
+			_G.CircleSides = 64
+			_G.CircleColor = Color3.fromRGB(255, 0, 130)
+			_G.CircleTransparency = 0
+			_G.CircleRadius = 200
+			_G.CircleFilled = false
+			_G.CircleVisible = true
+			_G.CircleThickness = 1
+	
+			local FOVCircle = Drawing.new("Circle")
+			FOVCircle.Position = Vector2.new(MyView.ViewportSize.X / 2, MyView.ViewportSize.Y / 2)
+			FOVCircle.Radius = _G.CircleRadius
+			FOVCircle.Filled = _G.CircleFilled
+			FOVCircle.Color = _G.CircleColor
+			FOVCircle.Visible = _G.CircleVisible
+			FOVCircle.Transparency = _G.CircleTransparency
+			FOVCircle.NumSides = _G.CircleSides
+			FOVCircle.Thickness = _G.CircleThickness
+	
+			local function CursorLock()
+				UIS.MouseBehavior = Enum.MouseBehavior.LockCenter
+			end
+			local function UnLockCursor()
+				HoldingM2 = false Active = false Lock = false 
+				UIS.MouseBehavior = Enum.MouseBehavior.Default
+			end
+			function FindNearestPlayer()
+				local dist = math.huge
+				local Target = nil
+				for _, v in pairs(Players:GetPlayers()) do
+					if v ~= LocalPlayer and v.Character:FindFirstChild("Humanoid") and v.Character:FindFirstChild("Humanoid").Health > 0 and v.Character:FindFirstChild("HumanoidRootPart") and v then
+						local TheirCharacter = v.Character
+						local CharacterRoot, Visible = MyView:WorldToViewportPoint(TheirCharacter[_G.AimPart].Position)
+						if Visible then
+							local RealMag = (Vector2.new(Mouse.X, Mouse.Y) - Vector2.new(CharacterRoot.X, CharacterRoot.Y)).Magnitude
+							if RealMag < dist and RealMag < FOVCircle.Radius then
+								dist = RealMag
+								Target = TheirCharacter
+							end
+						end
+					end
+				end
+				return Target
+			end
+	
+			UIS.InputBegan:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+					HoldingM2 = true
+					Active = true
+					Lock = true
+					if Active then
+						local The_Enemy = FindNearestPlayer()
+	
+						while HoldingM2 do task.wait(.000001)
+							if Lock and The_Enemy ~= nil then
+								local Future = The_Enemy.HumanoidRootPart.CFrame + (The_Enemy.HumanoidRootPart.Velocity * Epitaph + HeadOffset)
+								MyView.CFrame = CFrame.lookAt(MyView.CFrame.Position, Future.Position)
+								CursorLock()
+							end
+						end
+					end
+				end
+			end)
+			UIS.InputEnded:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+	
+					UnLockCursor()
+				end
+			end)
+	
+		end
+		if cream == false then 
+			local dwCamera = workspace.CurrentCamera
+			local dwRunService = game:GetService("RunService")
+			local dwUIS = game:GetService("UserInputService")
+			local dwEntities = game:GetService("Players")
+			local dwLocalPlayer = dwEntities.LocalPlayer
+			local dwMouse = dwLocalPlayer:GetMouse()
+	
+			getgenv().aimsettings = {
+				Aimbot = true,
+				Aiming = false,
+				Aimbot_AimPart = "",
+				Aimbot_TeamCheck = true,
+				Aimbot_Draw_FOV = false,
+				Aimbot_FOV_Radius = 200,
+				Aimbot_FOV_Color = Color3.fromRGB(255,255,255)
+			}
+	
+			local fovcircle = Drawing.new("Circle")
+			fovcircle.Visible = getgenv().aimsettings.Aimbot_Draw_FOV
+			fovcircle.Radius = getgenv().aimsettings.Aimbot_FOV_Radius
+			fovcircle.Color = getgenv().aimsettings.Aimbot_FOV_Color
+			fovcircle.Thickness = 1
+			fovcircle.Filled = false
+			fovcircle.Transparency = 1
+	
+			fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
+	
+			dwUIS.InputBegan:Connect(function(i)
+				if i.UserInputType == Enum.UserInputType.MouseButton2 then
+					getgenv().aimsettings.Aiming = true
+				end
+			end)
+	
+			dwUIS.InputEnded:Connect(function(i)
+				if i.UserInputType == Enum.UserInputType.MouseButton2 then
+					getgenv().aimsettings.Aiming = false
+				end
+			end)
+	
+			dwRunService.RenderStepped:Connect(function()
+	
+				local dist = math.huge
+				local closest_char = nil
+	
+				if getgenv().aimsettings.Aiming then
+	
+					for i,v in next, dwEntities:GetChildren() do 
+	
+						if v ~= dwLocalPlayer and
+							v.Character and
+							v.Character:FindFirstChild("HumanoidRootPart") and
+							v.Character:FindFirstChild("Humanoid") and
+							v.Character:FindFirstChild("Humanoid").Health > 0 then
+	
+							if getgenv().aimsettings.Aimbot_TeamCheck == true and
+								v.Team ~= dwLocalPlayer.Team or
+								getgenv().aimsettings.Aimbot_TeamCheck == false then
+	
+								local char = v.Character
+								local char_part_pos, is_onscreen = dwCamera:WorldToViewportPoint(char[getgenv().aimsettings.Aimbot_AimPart].Position)
+	
+								if is_onscreen then
+	
+									local mag = (Vector2.new(dwMouse.X, dwMouse.Y) - Vector2.new(char_part_pos.X, char_part_pos.Y)).Magnitude
+	
+									if mag < dist and mag < getgenv().aimsettings.Aimbot_FOV_Radius then
+	
+										dist = mag
+										closest_char = char
+	
+									end
+								end
+							end
+						end
+					end
+	
+					if closest_char ~= nil and
+						closest_char:FindFirstChild("HumanoidRootPart") and
+						closest_char:FindFirstChild("Humanoid") and
+						closest_char:FindFirstChild("Humanoid").Health > 0 then
+	
+						dwCamera.CFrame = CFrame.new(dwCamera.CFrame.Position, closest_char[getgenv().aimsettings.Aimbot_AimPart].Position)
+					end
+				end
+			end)
+		end
+	
+	
+			local Area = game:GetService("Workspace")
+			local RunService = game:GetService("RunService")
+			local UIS = game:GetService("UserInputService")
+			local Players = game:GetService("Players")
+			local LocalPlayer = Players.LocalPlayer
+			local MyCharacter = LocalPlayer.Character
+			local MyRoot = MyCharacter:FindFirstChild("HumanoidRootPart")
+			local MyHumanoid = MyCharacter:FindFirstChild("Humanoid")
+			local Mouse = LocalPlayer:GetMouse()
+			local MyView = Area.CurrentCamera
+			local MyTeamColor = LocalPlayer.TeamColor
+			local HoldingM2 = false
+			local Active = false
+			local Lock = false
+			local Epitaph = .100 ---Note: The Bigger The Number, The More Prediction.
+			local HeadOffset = Vector3.new(0, .1, 0)
+	
+			_G.TeamCheck = false
+			_G.AimPart = ""
+			_G.Sensitivity = 0
+			_G.CircleSides = 64
+			_G.CircleColor = Color3.fromRGB(255, 0, 130)
+			_G.CircleTransparency = 0
+			_G.CircleRadius = 200
+			_G.CircleFilled = false
+			_G.CircleVisible = true
+			_G.CircleThickness = 1
+	
+			local Fre = Drawing.new("Circle")
+			Fre.Position = Vector2.new(MyView.ViewportSize.X / 2, MyView.ViewportSize.Y / 2)
+			Fre.Radius = _G.CircleRadius
+			Fre.Filled = _G.CircleFilled
+			Fre.Color = _G.CircleColor
+			Fre.Visible = _G.CircleVisible
+			Fre.Transparency = _G.CircleTransparency
+			Fre.NumSides = _G.CircleSides
+			Fre.Thickness = _G.CircleThickness
+	
+			local function CursorLock()
+				UIS.MouseBehavior = Enum.MouseBehavior.LockCenter
+			end
+			local function UnLockCursor()
+				HoldingM2 = false Active = false Lock = false 
+				UIS.MouseBehavior = Enum.MouseBehavior.Default
+			end
+			function FindNearestPlayer()
+				local dist = math.huge
+				local Target = nil
+				for _, v in pairs(Players:GetPlayers()) do
+					if v ~= LocalPlayer and v.Character:FindFirstChild("Humanoid") and v.Character:FindFirstChild("Humanoid").Health > 0 and v.Character:FindFirstChild("HumanoidRootPart") and v then
+						local TheirCharacter = v.Character
+						local CharacterRoot, Visible = MyView:WorldToViewportPoint(TheirCharacter[_G.AimPart].Position)
+						if Visible then
+							local RealMag = (Vector2.new(Mouse.X, Mouse.Y) - Vector2.new(CharacterRoot.X, CharacterRoot.Y)).Magnitude
+							if RealMag < dist and RealMag < Fre.Radius then
+								dist = RealMag
+								Target = TheirCharacter
+							end
+						end
+					end
+				end
+				return Target
+			end
+	
+			UIS.InputBegan:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+					HoldingM2 = true
+					Active = true
+					Lock = true
+					if Active then
+						local The_Enemy = FindNearestPlayer()
+						while HoldingM2 do task.wait(.000001)
+							if Lock and The_Enemy ~= nil then
+								local Future = The_Enemy.HumanoidRootPart.CFrame + (The_Enemy.HumanoidRootPart.Velocity * Epitaph + HeadOffset)
+								MyView.CFrame = CFrame.lookAt(MyView.CFrame.Position, Future.Position)
+								CursorLock()
+							end
+						end
+					end
+				end
+			end)
+			UIS.InputEnded:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+					UnLockCursor()
+				end
+			end)
+	end)
+	
+end
+coroutine.wrap(LWGHSQO_fake_script)()
+local function VFSJTNR_fake_script() -- FovButton.Colours 
+	local script = Instance.new('LocalScript', FovButton)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+end
+coroutine.wrap(VFSJTNR_fake_script)()
+local function CERIRJ_fake_script() -- FovButton.NormalCircle 
+	local script = Instance.new('LocalScript', FovButton)
+
+	normal = false
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		if normal == true then 
+			normal = false 
+		else
+			normal = true
+		end
+		if normal == true then 
+			script.Parent.Text = "✓"
+		end
+		if normal == false then 
+			script.Parent.Text = ""
+		end
+	
+		if normal == true then
+			getgenv().Fov = true
+			while getgenv().Fov  and wait() do
+				local dwEntities = game:GetService("Players")
+				local dwLocalPlayer = dwEntities.LocalPlayer
+				local dwMouse = dwLocalPlayer:GetMouse()
+				local dwCamera = workspace.CurrentCamera
+	
+	
+				_G.fovcircle = Drawing.new("Circle")
+				_G.fovcircle.Visible = true
+				_G.fovcircle.Radius = 99
+				_G.fovcircle.NumSides = 64
+				_G.fovcircle.Color = Color3.fromRGB(255, 255, 255)
+				_G.fovcircle.Thickness = 1
+				_G.fovcircle.Filled = false
+				_G.fovcircle.Transparency = 1
+	
+				repeat
+					wait(0)
+					_G.fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
+				until normal == false
+			end
+		end
+	
+		if normal == false then
+			_G.fovcircle:Remove()
+			getgenv().Fov = false
+		end
+	end)
+end
+coroutine.wrap(CERIRJ_fake_script)()
+local function GQZU_fake_script() -- Slider.LocalScript 
+	local script = Instance.new('LocalScript', Slider)
+
+	function newSlider(title, callback, min, max, startPoint)
+		local dragging = false;
+		local sliderFrame = script.Parent.Parent.Slider
+		local slidingFrame = script.Parent.Slide
+		local titleLabel = script.Parent.stuff
+		local function slide(input)
+			local pos = UDim2.new(math.clamp((input.Position.X - sliderFrame.AbsolutePosition.X) / sliderFrame.AbsoluteSize.X, 0, 1), 0, 1, 0);
+			slidingFrame:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.2, true);
+			local value = math.floor(((pos.X.Scale * max) / max) * (max - min) + min);
+			titleLabel.Text = title .. " | " .. tostring(value);
+			callback(value);
+		end;
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true;
+			end;
+		end);
+	
+		sliderFrame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false;
+			end;
+		end);
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				slide(input);
+			end;
+		end);
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				slide(input);
+			end;
+		end);
+	end;
+	newSlider("Fov Size", function(value) _G.fovcircle.Radius = value end, 1, 300, 80);
+end
+coroutine.wrap(GQZU_fake_script)()
+local function OCGC_fake_script() -- Slider_2.LocalScript 
+	local script = Instance.new('LocalScript', Slider_2)
+
+	function newSlider(title, callback, min, max, startPoint)
+		local dragging = false;
+		local sliderFrame = script.Parent.Parent.Slider
+		local slidingFrame = script.Parent.Slide
+		local titleLabel = script.Parent.stuff
+	
+		local function slide(input)
+			local pos = UDim2.new(math.clamp((input.Position.X - sliderFrame.AbsolutePosition.X) / sliderFrame.AbsoluteSize.X, 0, 1), 0, 1, 0);
+			slidingFrame:TweenSize(pos, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.2, true);
+			local value = math.floor(((pos.X.Scale * max) / max) * (max - min) + min);
+			titleLabel.Text = title .. " | " .. tostring(value);
+			callback(value);
+		end;
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = true;
+			end;
+		end);
+	
+		sliderFrame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false;
+			end;
+		end);
+	
+		sliderFrame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				slide(input);
+			end;
+		end);
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				slide(input);
+			end;
+		end);
+	end;
+	newSlider("Fov", function(value) workspace.CurrentCamera.FieldOfView = value end, 70, 120, 80);
+end
+coroutine.wrap(OCGC_fake_script)()
+local function SHHTP_fake_script() -- ScriptFrame.LocalScript 
+	local script = Instance.new('LocalScript', ScriptFrame)
+
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = [[ ]]
+		mouse.Color = Color3.fromRGB(255, 255, 255)
+	
+	end)
+end
+coroutine.wrap(SHHTP_fake_script)()
+local function CZPMM_fake_script() -- Boxes.LocalScript 
+	local script = Instance.new('LocalScript', Boxes)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+end
+coroutine.wrap(CZPMM_fake_script)()
+local function ESIFA_fake_script() -- Boxes.LocalScript 
+	local script = Instance.new('LocalScript', Boxes)
+
+	de = false
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		if de == true then 
+			de = false 
+		else
+			de = true
+		end
+		if de == true then 
+			script.Parent.Text = "✓"
+		end
+		if de == false then 
+			script.Parent.Text = ""
+		end
+	
+		if de == true then
+			B:Toggle(true)
+			B.Boxes = true
+			repeat
+				wait(.1)
+				B.Color = script.Parent.Parent.Parent.Parent.Colouring.BackgroundColor3
+			until de == false
+		end
+	
+		if de == false then
+			B:Toggle(false)
+			B.Tracers = false
+		end
+	end)
+end
+coroutine.wrap(ESIFA_fake_script)()
+local function WJYT_fake_script() -- Tracers.LocalScript 
+	local script = Instance.new('LocalScript', Tracers)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+end
+coroutine.wrap(WJYT_fake_script)()
+local function EJQKOF_fake_script() -- Tracers.LocalScript 
+	local script = Instance.new('LocalScript', Tracers)
+
+	Trace = false
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		if Trace == true then 
+			Trace = false 
+		else
+			Trace = true
+		end
+		if Trace == true then 
+			script.Parent.Text = "✓"
+		end
+		if Trace == false then 
+			script.Parent.Text = ""
+		end
+	
+		if Trace == true then
+			Lines:Toggle(true)
+			Lines.Tracers = true
+			repeat
+				wait(.1)
+				Lines.Color = script.Parent.Parent.Parent.Parent.Colouring.BackgroundColor3
+			until Trace == false
+		end
+	
+		if Trace == false then
+			Lines:Toggle(false)
+			Lines.Tracers = false
+		end
+	end)
+end
+coroutine.wrap(EJQKOF_fake_script)()
+local function HJQV_fake_script() -- Names.LocalScript 
+	local script = Instance.new('LocalScript', Names)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+end
+coroutine.wrap(HJQV_fake_script)()
+local function LCFLNT_fake_script() -- Names.LocalScript 
+	local script = Instance.new('LocalScript', Names)
+
+	Names = false
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		if Names == true then 
+			Names = false 
+		else
+			Names = true
+		end
+		if Names == true then 
+			script.Parent.Text = "✓"
+		end
+		if Names == false then 
+			script.Parent.Text = ""
+		end
+	
+		if Names == true then
+			Name:Toggle(true)
+			Name.Names = true
+			repeat
+				wait(.1)
+				Name.Color = script.Parent.Parent.Parent.Parent.Colouring.BackgroundColor3
+			until Names == false
+		end
+	
+		if Names == false then
+			Name:Toggle(false)
+			Name.Tracers = false
+		end
+	end)
+end
+coroutine.wrap(LCFLNT_fake_script)()
+local function RUCQWY_fake_script() -- AimbotButton_2.LocalScript 
+	local script = Instance.new('LocalScript', AimbotButton_2)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+end
+coroutine.wrap(RUCQWY_fake_script)()
+local function LYXZB_fake_script() -- AimbotButton_2.LocalScript 
+	local script = Instance.new('LocalScript', AimbotButton_2)
+
+	
+end
+coroutine.wrap(LYXZB_fake_script)()
+local function USYVMFY_fake_script() -- FovButton_2.Colours 
+	local script = Instance.new('LocalScript', FovButton_2)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+end
+coroutine.wrap(USYVMFY_fake_script)()
+local function DGWVR_fake_script() -- FovButton_2.NormalCircle 
+	local script = Instance.new('LocalScript', FovButton_2)
+
+	
+end
+coroutine.wrap(DGWVR_fake_script)()
+local function NWSZWN_fake_script() -- ImageLabel_6.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_6)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 100,0, 100)
+end
+coroutine.wrap(NWSZWN_fake_script)()
+local function NAJUEZ_fake_script() -- FovButton_3.Colours 
+	local script = Instance.new('LocalScript', FovButton_3)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+end
+coroutine.wrap(NAJUEZ_fake_script)()
+local function CNMR_fake_script() -- FovButton_3.NormalCircle 
+	local script = Instance.new('LocalScript', FovButton_3)
+
+	creds = false
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		if creds == true then 
+			creds = false 
+		else
+			creds = true
+		end
+		if creds == true then 
+			script.Parent.Text = "✓"
+		end
+		if creds == false then 
+			script.Parent.Text = ""
+		end
+	
+		if creds == true then
+			
+			end
+	
+		if creds == false then
+			
+		end
+	end)
+end
+coroutine.wrap(CNMR_fake_script)()
+local function MIVCESN_fake_script() -- SpoofName.LocalScript 
+	local script = Instance.new('LocalScript', SpoofName)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+end
+coroutine.wrap(MIVCESN_fake_script)()
+local function JFZUI_fake_script() -- SpoofName.LocalScript 
+	local script = Instance.new('LocalScript', SpoofName)
+
+	cream = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if cream == true then 
+			cream = false 
+		else
+			cream = true
+		end
+		if cream == true then 
+			script.Parent.Text = "✓"
+		end
+		if cream == false then 
+			script.Parent.Text = ""
+		end
+	
+		if cream == true then
+	
+			local Config =
+				{
+					ProtectedName = "115", --What the protected name should be called.
+					OtherPlayers = true, --If other players should also have protected names.
+					OtherPlayersTemplate = "100", --Template for other players protected name (ex: "NamedProtect" will turn into "NameProtect1" for first player and so on)
+					RenameTextBoxes = false, --If TextBoxes should be renamed. (could cause issues with admin guis/etc)
+					UseFilterPadding = false, --If filtered name should be the same size as a regular name.
+					FilterPad = " ", --Character used to filter pad.
+					UseMetatableHook = true, --Use metatable hook to increase chance of filtering. (is not supported on wrappers like bleu)
+					UseAggressiveFiltering = false --Use aggressive property renaming filter. (renames a lot more but at the cost of lag)
+				}
+	
+			local ProtectedNames = {}
+			local Counter = 1
+			if Config.OtherPlayers then
+				for I, V in pairs(game:GetService("Players"):GetPlayers()) do
+					local Filter = Config.OtherPlayersTemplate .. tostring(Counter)
+					if Config.UseFilterPadding then
+						if string.len(Filter) > string.len(V.Name) then
+							Filter = string.sub(Filter, 1, string.len(V.Name))
+						elseif string.len(Filter) < string.len(V.Name) then
+							local Add = string.len(V.Name) - string.len(Filter)
+							for I=1,Add do
+								Filter = Filter .. Config.FilterPad
+							end
+						end
+					end
+					ProtectedNames[V.Name] = Filter
+					Counter = Counter + 1
+				end
+	
+				game:GetService("Players").PlayerAdded:connect(function(Player)
+					local Filter = Config.OtherPlayersTemplate .. tostring(Counter)
+					if Config.UseFilterPadding then
+						if string.len(Filter) > string.len(V.Name) then
+							Filter = string.sub(Filter, 1, string.len(V.Name))
+						elseif string.len(Filter) < string.len(V.Name) then
+							local Add = string.len(V.Name) - string.len(Filter)
+							for I=1,Add do
+								Filter = Filter .. Config.FilterPad
+							end
+						end
+					end
+					ProtectedNames[Player.Name] = Filter
+					Counter = Counter + 1
+				end)
+			end
+	
+			local LPName = game:GetService("Players").LocalPlayer.Name
+			local IsA = game.IsA
+	
+			if Config.UseFilterPadding then
+				if string.len(Config.ProtectedName) > string.len(LPName) then
+					Config.ProtectedName = string.sub(Config.ProtectedName, 1, string.len(LPName))
+				elseif string.len(Config.ProtectedName) < string.len(LPName) then
+					local Add = string.len(LPName) - string.len(Config.ProtectedName)
+					for I=1,Add do
+						Config.ProtectedName = Config.ProtectedName .. Config.FilterPad
+					end
+				end
+			end
+	
+			local function FilterString(S)
+				local RS = S
+				if Config.OtherPlayers then
+					for I, V in pairs(ProtectedNames) do
+						RS = string.gsub(RS, I, V)
+					end
+				end
+				RS = string.gsub(RS, LPName, Config.ProtectedName)
+				return RS
+			end
+	
+			for I, V in pairs(game:GetDescendants()) do
+				if Config.RenameTextBoxes then
+					if IsA(V, "TextLabel") or IsA(V, "TextButton") or IsA(V, "TextBox") then
+						V.Text = FilterString(V.Text)
+	
+						if Config.UseAggressiveFiltering then
+							V:GetPropertyChangedSignal("Text"):connect(function()
+								V.Text = FilterString(V.Text)
+							end)
+						end
+					end
+				else
+					if IsA(V, "TextLabel") or IsA(V, "TextButton") then
+						V.Text = FilterString(V.Text)
+	
+						if Config.UseAggressiveFiltering then
+							V:GetPropertyChangedSignal("Text"):connect(function()
+								V.Text = FilterString(V.Text)
+							end)
+						end
+					end
+				end
+			end
+	
+			if Config.UseAggressiveFiltering then
+				game.DescendantAdded:connect(function(V)
+					if Config.RenameTextBoxes then
+						if IsA(V, "TextLabel") or IsA(V, "TextButton") or IsA(V, "TextBox") then
+							V:GetPropertyChangedSignal("Text"):connect(function()
+								V.Text = FilterString(V.Text)
+							end)
+						end
+					else
+						if IsA(V, "TextLabel") or IsA(V, "TextButton") then
+							V:GetPropertyChangedSignal("Text"):connect(function()
+								V.Text = FilterString(V.Text)
+							end)
+						end
+					end
+				end)
+			end
+	
+			if Config.UseMetatableHook then
+				if not getrawmetatable then
+					error("GetRawMetaTable not found")
+				end
+	
+				local NewCC = function(F)
+					if newcclosure then return newcclosure(F) end
+					return F
+				end
+	
+				local SetRO = function(MT, V)
+					if setreadonly then return setreadonly(MT, V) end
+					if not V and make_writeable then return make_writeable(MT) end
+					if V and make_readonly then return make_readonly(MT) end
+					error("No setreadonly found")
+				end
+	
+				local MT = getrawmetatable(game)
+				local OldNewIndex = MT.__newindex
+				SetRO(MT, false)
+	
+				MT.__newindex = NewCC(function(T, K, V)
+					if Config.RenameTextBoxes then
+						if (IsA(T, "TextLabel") or IsA(T, "TextButton") or IsA(T, "TextBox")) and K == "Text" and type(V) == "string" then
+							return OldNewIndex(T, K, FilterString(V))
+						end
+					else
+						if (IsA(T, "TextLabel") or IsA(T, "TextButton")) and K == "Text" and type(V) == "string" then
+							return OldNewIndex(T, K, FilterString(V))
+						end
+					end
+	
+					return OldNewIndex(T, K, V)
+				end)
+	
+				SetRO(MT, true)
+			end
+	
+		end
+		if cream == false then 
+			game.Players.LocalPlayer.Name = "Gayz"
+			end
+	end)
+	
+end
+coroutine.wrap(JFZUI_fake_script)()
+local function WPPLA_fake_script() -- FovButton_4.Colours 
+	local script = Instance.new('LocalScript', FovButton_4)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+end
+coroutine.wrap(WPPLA_fake_script)()
+local function LFOBUP_fake_script() -- FovButton_4.NormalCircle 
+	local script = Instance.new('LocalScript', FovButton_4)
+
+	
+end
+coroutine.wrap(LFOBUP_fake_script)()
+local function BRFQO_fake_script() -- FovButton_5.Colours 
+	local script = Instance.new('LocalScript', FovButton_5)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(60, 0, 180)
+		script.Parent.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+		script.Parent.BackgroundColor3 = Color3.fromRGB(29,29,29)
+		script.Parent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	end)
+	
+	script.Parent.MouseEnter:Connect(function()
+		local player = game.Players.LocalPlayer
+		local mouse = player:GetMouse()
+	
+		mouse.Icon = "rbxassetid://5992580992"
+		mouse.Color = Color3.fromRGB(255, 0, 0)
+	
+	end)
+end
+coroutine.wrap(BRFQO_fake_script)()
+local function LAFUSC_fake_script() -- FovButton_5.NormalCircle 
+	local script = Instance.new('LocalScript', FovButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local UserInputService = game:GetService("UserInputService")
+		local GuiService = game:GetService("GuiService")
+	
+		local mt = getrawmetatable(game)
+		make_writeable(mt)
+	
+		local namecall = mt.__namecall
+		local index = mt.__index
+	
+		mt.__namecall = newcclosure(function(self, ...)
+			local method = getnamecallmethod()
+			local args = {...}
+	
+			if self == UserInputService or self == GuiService then
+				if method == "GetPlatform" then
+					return Enum.Platform.Android
+				elseif method == "IsTenFootInterface" then
+					return false
+				end
+			end
+			return namecall(self, ...)
+		end)
+	
+		mt.__index = newcclosure(function(tbl, idx)
+			if tbl == UserInputService then
+				if idx == "TouchEnabled" then
+					return true
+				elseif idx == "MouseEnabled" then
+					return false
+				elseif idx == "KeyboardEnabled" then
+					return false
+				end
+			end
+			return index(tbl, idx)
+			end)
+	end)
+end
+coroutine.wrap(LAFUSC_fake_script)()
+local function PBFMML_fake_script() -- NotPasted.DragControl 
+	local script = Instance.new('LocalScript', NotPasted)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0.06, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(PBFMML_fake_script)()
+local function DXUL_fake_script() -- NotPasted.LocalScript 
+	local script = Instance.new('LocalScript', NotPasted)
+
+	print("Welcome", game.Players.LocalPlayer.Name, "To CherryX Universal Hub")
+		
+end
+coroutine.wrap(DXUL_fake_script)()
